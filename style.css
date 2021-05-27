@@ -1,9 +1,22 @@
 /*
 Theme Name: Neve Child Theme
-Theme URI: https://wordpress.org/themes/neve/
+Theme URI: https://themeisle.com/themes/neve/
 Description: Neve Child Theme
-Author: Lucia Supova
+Author: Elite Four
 Template: neve
 Version: 1.0
 */
 
+/* FONTS */
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(PlayfairDisplay.ttf);
+  }
+
+/*trying random stuff*/
+body { border: 100px solid pink; }
+
+.brz .brz-rich-text > p, .brz .brz-rich-text span{
+    color: pink;
+    font-family: PlayfairDisplay;
+}
