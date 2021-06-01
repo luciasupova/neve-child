@@ -13,10 +13,31 @@ Version: 1.0
     src: url(PlayfairDisplay.ttf);
   }
 
-/*trying random stuff*/
-body { border: 100px solid pink; }
+
 
 .brz .brz-rich-text > p, .brz .brz-rich-text span{
     color: pink;
     font-family: PlayfairDisplay;
+}
+
+
+:root {
+    --main-color: #f3e5d8;
+    --secondary-color: #b07c83;
+    --tertiary-color: #c3bfd8;
+    --fourth-color: #24303e;
+}
+  
+body {
+  font-family: PlayfairDisplay;
+}
+
+.brz .brz-rich-text > p,.brz .brz-rich-text {
+    color: var(--main-color);
+    font-family: MontserratBold;
+}
+
+.brz-cp-color7 {
+  color: var(--fourth-color);
+  font-family: PlayfairDisplay;
 }
