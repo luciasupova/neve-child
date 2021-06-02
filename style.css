@@ -22,3 +22,24 @@ Version: 1.0
     font-family: MontserratRegular;
     src: url(Montserrat-Regular.ttf);
   }
+
+:root {
+    --main-color: #f3e5d8;
+    --secondary-color: #b07c83;
+    --tertiary-color: #c3bfd8;
+    --fourth-color: #24303e;
+}
+  
+body {
+  font-family: PlayfairDisplay;
+}
+
+.brz .brz-rich-text > p,.brz .brz-rich-text {
+    color: var(--main-color);
+    font-family: MontserratBold;
+}
+
+.brz-cp-color7 {
+  color: var(--fourth-color);
+  font-family: PlayfairDisplay;
+}
