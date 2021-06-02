@@ -22,6 +22,8 @@ Version: 1.0
     font-family: MontserratRegular;
     src: url(Montserrat-Regular.ttf);
   }
+
+/* MAIN COLORS WE USE ON THE WEBSITE */
   :root {
     --main-color: #f3e5d8;
     --secondary-color: #b07c83;
@@ -29,15 +31,17 @@ Version: 1.0
     --fourth-color: #24303e;
 }
   
+/* CHANGE FONT - BODY*/
 body {
   font-family: PlayfairDisplay;
 }
 
+/* CHANGE COLOR TO DARK BLUE */
 .brz .brz-rich-text > p,.brz .brz-rich-text {
-    color: var(--main-color);
-    font-family: MontserratBold;
+    color: var(--secondary-color);
 }
 
+/* CHANGE THE P TEXT UNDER IA */
 .brz-cp-color7 {
   color: var(--fourth-color);
   font-family: PlayfairDisplay;
