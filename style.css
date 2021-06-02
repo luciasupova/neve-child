@@ -22,8 +22,7 @@ Version: 1.0
     font-family: MontserratRegular;
     src: url(Montserrat-Regular.ttf);
   }
-
-:root {
+  :root {
     --main-color: #f3e5d8;
     --secondary-color: #b07c83;
     --tertiary-color: #c3bfd8;
