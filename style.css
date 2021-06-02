@@ -13,13 +13,14 @@ Version: 1.0
     src: url(PlayfairDisplay.ttf);
   }
 
+@font-face {
+    font-family: MontserratBold;
+    src: url(Montserrat-Bold.ttf);
+  }
 
-
-.brz .brz-rich-text > p, .brz .brz-rich-text span{
-    color: pink;
-    font-family: PlayfairDisplay;
-}
-
+  @font-face {
+    font-family: MontserratRegular;
+    src: url(Montserrat-Regular.ttf);
 
 :root {
     --main-color: #f3e5d8;
