@@ -55,6 +55,7 @@ body {
   font-family: MontserratRegular;
   src: url(Montserrat-Regular.ttf);
 }
+
 /* MAIN COLORS WE USE ON THE WEBSITE */
 :root {
   --main-color: #f3e5d8;
@@ -91,3 +92,33 @@ font-family: MontserratBold;
 .country-selector.weglot-inline.weglot-default {
 padding: 35px;
 }
+
+/*BUTTON - ACCEPT*/
+.wt-cli-accept-all-btn {
+  border-radius: 15px;
+}
+
+/* BUTTON - COOKIE SETTINGS*/
+.cli_settings_button {
+  border-radius: 15px;
+}
+
+/* SAVE BUTTON */
+.wt-cli-privacy-save-btn {
+  border-radius: 15px;
+}
+
+.wt-cli-privacy-btn .cli_setting_save_button .wt-cli-privacy-accept-btn .cli-btn {
+  border-radius: 15px;
+}
+
+/* Menu change wannabe
+.hfg_header .header-menu-sidebar .header-menu-sidebar-bg {
+  background-color: var(--fourth-color);
+}
+
+#header-menu-sidebar-bg {
+  color: var(--fourth-color);
+}
+*/
+
