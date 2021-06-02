@@ -9,6 +9,7 @@ Version: 1.0
 
 /* FONTS */
 @font-face {
+<<<<<<< Updated upstream
     font-family: PlayfairDisplay;
     src: url(PlayfairDisplay.ttf);
   }
@@ -44,13 +45,22 @@ body {
 /* CHANGE THE P TEXT UNDER IA */
 .brz-cp-color7 {
   color: var(--fourth-color);
+=======
+>>>>>>> Stashed changes
   font-family: PlayfairDisplay;
+  src: url(PlayfairDisplay.ttf);
 }
+<<<<<<< Updated upstream
 
 /*header font change*/
 .brz-text-lg-center {
+=======
+@font-face {
+>>>>>>> Stashed changes
   font-family: MontserratBold;
+  src: url(Montserrat-Bold.ttf);
 }
+<<<<<<< Updated upstream
 
 /*font change above p*/
 .brz-cp-color2 {
@@ -61,3 +71,45 @@ body {
 .country-selector.weglot-inline.weglot-default {
   padding: 35px;
 }
+=======
+@font-face {
+  font-family: MontserratRegular;
+  src: url(Montserrat-Regular.ttf);
+}
+/* MAIN COLORS WE USE ON THE WEBSITE */
+:root {
+  --main-color: #f3e5d8;
+  --secondary-color: #b07c83;
+  --tertiary-color: #c3bfd8;
+  --fourth-color: #24303e;
+}
+
+/* CHANGE FONT - BODY*/
+body {
+font-family: PlayfairDisplay;
+}
+/* CHANGE COLOR TO DARK BLUE */
+.brz .brz-rich-text > p,.brz .brz-rich-text {
+  color: var(--secondary-color);
+}
+/* CHANGE THE P TEXT UNDER IA */
+.brz-cp-color7 {
+color: var(--fourth-color);
+font-family: PlayfairDisplay;
+}
+
+/* FONT CHANGE HEADER */
+.brz-text-lg-center {
+font-family: MontserratBold;
+}
+
+/*FONT CHANGE ABOVE P*/
+.brz-cp-color2 {
+font-family: MontserratBold;
+}
+
+/* TRANSLATION BUTTON */
+.country-selector.weglot-inline.weglot-default {
+padding: 35px;
+}
+>>>>>>> Stashed changes
