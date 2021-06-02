@@ -46,3 +46,18 @@ body {
   color: var(--fourth-color);
   font-family: PlayfairDisplay;
 }
+
+/*header font change*/
+.brz-text-lg-center {
+  font-family: MontserratBold;
+}
+
+/*font change above p*/
+.brz-cp-color2 {
+  font-family: MontserratBold;
+}
+
+/*translation button*/
+.country-selector.weglot-inline.weglot-default {
+  padding: 35px;
+}
