@@ -9,7 +9,6 @@ Version: 1.0
 
 /* FONTS */
 @font-face {
-<<<<<<< Updated upstream
     font-family: PlayfairDisplay;
     src: url(PlayfairDisplay.ttf);
   }
@@ -45,33 +44,13 @@ body {
 /* CHANGE THE P TEXT UNDER IA */
 .brz-cp-color7 {
   color: var(--fourth-color);
-=======
->>>>>>> Stashed changes
   font-family: PlayfairDisplay;
   src: url(PlayfairDisplay.ttf);
 }
-<<<<<<< Updated upstream
-
-/*header font change*/
-.brz-text-lg-center {
-=======
 @font-face {
->>>>>>> Stashed changes
   font-family: MontserratBold;
   src: url(Montserrat-Bold.ttf);
 }
-<<<<<<< Updated upstream
-
-/*font change above p*/
-.brz-cp-color2 {
-  font-family: MontserratBold;
-}
-
-/*translation button*/
-.country-selector.weglot-inline.weglot-default {
-  padding: 35px;
-}
-=======
 @font-face {
   font-family: MontserratRegular;
   src: url(Montserrat-Regular.ttf);
@@ -112,4 +91,3 @@ font-family: MontserratBold;
 .country-selector.weglot-inline.weglot-default {
 padding: 35px;
 }
->>>>>>> Stashed changes
