@@ -16,7 +16,58 @@ Version: 1.0
 /*trying random stuff*/
 body { border: 100px solid pink; }
 
+<<<<<<< Updated upstream
 .brz .brz-rich-text > p, .brz .brz-rich-text span{
     color: pink;
     font-family: PlayfairDisplay;
 }
+=======
+/* CHANGE THE P TEXT UNDER IA */
+.brz-cp-color7 {
+  color: var(--fourth-color);
+  font-family: PlayfairDisplay;
+}
+
+/* HEADER CHANGE */
+.brz-text-lg-center {
+  font-family: MontserratBold;
+}
+
+/* FONT ABOVE P */
+.brz-cp-color2 {
+  font-family: MontserratBold;
+}
+
+/* TRANSLATION BUTTON */
+.country-selector.weglot-inline.weglot-default {
+  padding: 35px;
+}
+
+/* BUTTON - ACCEPT */
+.wt-cli-accept-all-btn {
+  border-radius: 15px;
+}
+
+/* BUTTON - COOKIE SETTINGS */
+.cli_settings_button {
+  border-radius: 15px;
+}
+
+/* SAVE BUTTON */
+.wt-cli-privacy-save-btn {
+  border-radius: 15px;
+}
+
+.wt-cli-privacy-btn .cli_setting_save_button .wt-cli-privacy-accept-btn .cli-btn {
+  border-radius: 15px;
+}
+
+/* Menu change wannabe
+.hfg_header .header-menu-sidebar .header-menu-sidebar-bg {
+  background-color: var(--fourth-color);
+}
+
+#header-menu-sidebar-bg {
+  color: var(--fourth-color);
+} */
+>>>>>>> Stashed changes
