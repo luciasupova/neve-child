@@ -9,48 +9,15 @@ Version: 1.0
 
 /* FONTS */
 @font-face {
-    font-family: PlayfairDisplay;
-    src: url(PlayfairDisplay.ttf);
-  }
-
-  @font-face {
-    font-family: MontserratBold;
-    src: url(Montserrat-Bold.ttf);
-  }
-
-  @font-face {
-    font-family: MontserratRegular;
-    src: url(Montserrat-Regular.ttf);
-  }
-
-/* MAIN COLORS WE USE ON THE WEBSITE */
-  :root {
-    --main-color: #f3e5d8;
-    --secondary-color: #b07c83;
-    --tertiary-color: #c3bfd8;
-    --fourth-color: #24303e;
-}
-  
-/* CHANGE FONT - BODY*/
-body {
-  font-family: PlayfairDisplay;
-}
-
-/* CHANGE COLOR TO DARK BLUE */
-.brz .brz-rich-text > p,.brz .brz-rich-text {
-    color: var(--secondary-color);
-}
-
-/* CHANGE THE P TEXT UNDER IA */
-.brz-cp-color7 {
-  color: var(--fourth-color);
   font-family: PlayfairDisplay;
   src: url(PlayfairDisplay.ttf);
 }
+
 @font-face {
   font-family: MontserratBold;
   src: url(Montserrat-Bold.ttf);
 }
+
 @font-face {
   font-family: MontserratRegular;
   src: url(Montserrat-Regular.ttf);
@@ -66,31 +33,34 @@ body {
 
 /* CHANGE FONT - BODY*/
 body {
-font-family: PlayfairDisplay;
+  font-family: PlayfairDisplay;
 }
+
 /* CHANGE COLOR TO DARK BLUE */
-.brz .brz-rich-text > p,.brz .brz-rich-text {
+.brz .brz-rich-text>p,
+.brz .brz-rich-text {
   color: var(--secondary-color);
 }
+
 /* CHANGE THE P TEXT UNDER IA */
 .brz-cp-color7 {
-color: var(--fourth-color);
-font-family: PlayfairDisplay;
+  color: var(--fourth-color);
+  font-family: PlayfairDisplay;
 }
 
 /* FONT CHANGE HEADER */
 .brz-text-lg-center {
-font-family: MontserratBold;
+  font-family: MontserratBold;
 }
 
 /*FONT CHANGE ABOVE P*/
 .brz-cp-color2 {
-font-family: MontserratBold;
+  font-family: MontserratBold;
 }
 
 /* TRANSLATION BUTTON */
 .country-selector.weglot-inline.weglot-default {
-padding: 35px;
+  padding: 35px;
 }
 
 /*BUTTON - ACCEPT*/
@@ -112,13 +82,7 @@ padding: 35px;
   border-radius: 15px;
 }
 
-/* Menu change wannabe
-.hfg_header .header-menu-sidebar .header-menu-sidebar-bg {
+/* PHONE SIDE MENU CHANGE COLOR */
+.header-menu-sidebar-bg div {
   background-color: var(--fourth-color);
 }
-
-#header-menu-sidebar-bg {
-  color: var(--fourth-color);
-}
-*/
-
